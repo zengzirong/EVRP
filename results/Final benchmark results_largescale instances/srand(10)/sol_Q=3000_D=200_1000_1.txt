@@ -1,0 +1,1164 @@
+energy consumption = 15389831.7169021349
+init completed
+
+===========================================
+running on iteration 1:
+current ec = 15389831.7169021349
+current total_time = 35743.4782318527
+current total_dis = 36032.2357995033
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 2:
+current ec = 13518193.5943872612
+current total_time = 29943.8687033873
+current total_dis = 31977.4288542163
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 3:
+current ec = 12443107.6608329136
+current total_time = 27492.1060943560
+current total_dis = 29581.8572837283
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 4:
+current ec = 8788053.5292820539
+current total_time = 19196.1082541151
+current total_dis = 21398.8503751693
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2601052
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 23.04")
+
+CPU model: Intel(R) Core(TM) i9-14900K, instruction set [SSE2|AVX|AVX2]
+Thread count: 32 physical cores, 32 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 1000 rows, 8000 columns and 8000 nonzeros
+Model fingerprint: 0x5bc7e847
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+04, 8e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.538983e+07
+Presolve removed 742 rows and 7867 columns
+Presolve time: 0.05s
+Presolved: 258 rows, 133 columns, 1338 nonzeros
+Found heuristic solution: objective 1.538654e+07
+Variable types: 0 continuous, 133 integer (133 binary)
+
+Root relaxation: objective 8.383564e+06, 25 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    8383563.6484 8383563.65  0.00%     -    0s
+
+Explored 1 nodes (25 simplex iterations) in 0.06 seconds (0.08 work units)
+Thread count was 8 (of 32 available processors)
+
+Solution count 3: 8.38356e+06 1.53865e+07 1.53898e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.383563648356e+06, best bound 8.383563648356e+06, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 5:
+current ec = 8109634.3387699602
+current total_time = 17627.8504292152
+current total_dis = 19879.6050162550
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 6:
+current ec = 8070876.0181310037
+current total_time = 17660.6722134141
+current total_dis = 19784.0643769585
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 7:
+current ec = 7929404.6292268578
+current total_time = 17213.4735775081
+current total_dis = 19475.2869383488
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 8:
+current ec = 7836130.1499897316
+current total_time = 16974.6701628837
+current total_dis = 19272.0253625843
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2601052
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 23.04")
+
+CPU model: Intel(R) Core(TM) i9-14900K, instruction set [SSE2|AVX|AVX2]
+Thread count: 32 physical cores, 32 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 1000 rows, 8000 columns and 8000 nonzeros
+Model fingerprint: 0x0f9e9941
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+04, 7e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8109634.3388
+Presolve removed 894 rows and 7942 columns
+Presolve time: 0.05s
+Presolved: 106 rows, 58 columns, 512 nonzeros
+Found heuristic solution: objective 7931484.9511
+Variable types: 0 continuous, 58 integer (58 binary)
+Found heuristic solution: objective 7927688.4298
+
+Root relaxation: objective 7.836130e+06, 40 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    7836130.1500 7836130.15  0.00%     -    0s
+
+Explored 1 nodes (40 simplex iterations) in 0.05 seconds (0.08 work units)
+Thread count was 8 (of 32 available processors)
+
+Solution count 4: 7.83613e+06 7.92769e+06 7.93148e+06 8.10963e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.836130149990e+06, best bound 7.836130149990e+06, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 9:
+current ec = 7774470.8122095354
+current total_time = 16856.2613073473
+current total_dis = 19136.1164585717
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 10:
+current ec = 7708280.5721749393
+current total_time = 16728.8904815640
+current total_dis = 18975.7238566716
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 11:
+current ec = 7708280.5721749393
+current total_time = 16728.8904815640
+current total_dis = 18975.7238566716
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 12:
+current ec = 7585544.7031583488
+current total_time = 16368.2516694953
+current total_dis = 18710.1839095972
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2601052
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 23.04")
+
+CPU model: Intel(R) Core(TM) i9-14900K, instruction set [SSE2|AVX|AVX2]
+Thread count: 32 physical cores, 32 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 1000 rows, 8000 columns and 8000 nonzeros
+Model fingerprint: 0x4ccfadbd
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+04, 8e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 7774470.8122
+Presolve removed 1000 rows and 8000 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds (0.04 work units)
+Thread count was 1 (of 32 available processors)
+
+Solution count 2: 7.58554e+06 7.77447e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.585543835905e+06, best bound 7.585543835905e+06, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 13:
+current ec = 7585543.8359045805
+current total_time = 16368.2052234886
+current total_dis = 18710.1839095972
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 14:
+current ec = 7585543.8359045805
+current total_time = 16368.2052234886
+current total_dis = 18710.1839095972
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 15:
+current ec = 7521095.9852636764
+current total_time = 16146.1750273654
+current total_dis = 18567.7897504010
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 16:
+current ec = 7521095.9852636764
+current total_time = 16146.1750273654
+current total_dis = 18567.7897504010
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 17:
+current ec = 7501296.4474576320
+current total_time = 16083.8627044309
+current total_dis = 18529.2715248497
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 18:
+current ec = 7501296.4474576320
+current total_time = 16083.8627044309
+current total_dis = 18529.2715248497
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 19:
+current ec = 7501296.4474576320
+current total_time = 16083.8627044309
+current total_dis = 18529.2715248497
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 20:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 21:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 22:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 23:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 24:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 25:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 26:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 27:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 28:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 29:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 30:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 31:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 32:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 33:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 34:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 35:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 36:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 37:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 38:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 39:
+current ec = 7440527.5621838113
+current total_time = 15949.9622576722
+current total_dis = 18395.6810834840
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 40:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 41:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 42:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 43:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 44:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 45:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 46:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running SPP
+Set parameter LicenseID to value 2601052
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (linux64 - "Ubuntu 23.04")
+
+CPU model: Intel(R) Core(TM) i9-14900K, instruction set [SSE2|AVX|AVX2]
+Thread count: 32 physical cores, 32 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 1000 rows, 8000 columns and 52610 nonzeros
+Model fingerprint: 0x0577c553
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 7585543.8359
+Presolve removed 109 rows and 4731 columns
+Presolve time: 0.08s
+Presolved: 891 rows, 3269 columns, 19914 nonzeros
+Variable types: 0 continuous, 3269 integer (3269 binary)
+
+Root relaxation: objective 7.334464e+06, 5768 iterations, 0.50 seconds (1.32 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 7334464.13    0  655 7585543.84 7334464.13  3.31%     -    0s
+     0     0 7334468.41    0  652 7585543.84 7334468.41  3.31%     -    0s
+H    0     0                    7585458.8455 7334468.41  3.31%     -    0s
+     0     0 7347609.67    0  692 7585458.85 7347609.67  3.14%     -    1s
+     0     0 7347632.27    0  692 7585458.85 7347632.27  3.14%     -    1s
+     0     0 7353658.94    0  772 7585458.85 7353658.94  3.06%     -    1s
+     0     0 7353805.66    0  789 7585458.85 7353805.66  3.05%     -    1s
+     0     0 7353805.97    0  790 7585458.85 7353805.97  3.05%     -    1s
+     0     0 7355478.46    0  804 7585458.85 7355478.46  3.03%     -    1s
+     0     0 7355550.60    0  795 7585458.85 7355550.60  3.03%     -    1s
+     0     0 7355554.04    0  798 7585458.85 7355554.04  3.03%     -    1s
+     0     0 7356477.15    0  813 7585458.85 7356477.15  3.02%     -    1s
+     0     0 7356560.66    0  826 7585458.85 7356560.66  3.02%     -    1s
+     0     0 7356623.16    0  826 7585458.85 7356623.16  3.02%     -    1s
+     0     0 7356624.66    0  831 7585458.85 7356624.66  3.02%     -    1s
+     0     0 7357175.78    0  827 7585458.85 7357175.78  3.01%     -    1s
+     0     0 7357194.74    0  839 7585458.85 7357194.74  3.01%     -    1s
+     0     0 7357195.00    0  838 7585458.85 7357195.00  3.01%     -    1s
+     0     0 7357733.46    0  841 7585458.85 7357733.46  3.00%     -    1s
+     0     0 7357842.84    0  846 7585458.85 7357842.84  3.00%     -    1s
+     0     0 7357853.23    0  849 7585458.85 7357853.23  3.00%     -    1s
+     0     0 7357858.55    0  858 7585458.85 7357858.55  3.00%     -    1s
+     0     0 7358063.32    0  843 7585458.85 7358063.32  3.00%     -    2s
+     0     0 7358130.87    0  840 7585458.85 7358130.87  3.00%     -    2s
+     0     0 7358140.16    0  835 7585458.85 7358140.16  3.00%     -    2s
+     0     0 7358390.68    0  843 7585458.85 7358390.68  2.99%     -    2s
+     0     0 7358428.72    0  856 7585458.85 7358428.72  2.99%     -    2s
+     0     0 7358430.15    0  870 7585458.85 7358430.15  2.99%     -    2s
+     0     0 7358477.50    0  847 7585458.85 7358477.50  2.99%     -    2s
+     0     0 7358495.33    0  816 7585458.85 7358495.33  2.99%     -    2s
+     0     0 7358503.88    0  825 7585458.85 7358503.88  2.99%     -    2s
+     0     0 7358611.22    0  842 7585458.85 7358611.22  2.99%     -    2s
+     0     0 7358623.73    0  851 7585458.85 7358623.73  2.99%     -    2s
+     0     0 7358627.90    0  871 7585458.85 7358627.90  2.99%     -    2s
+     0     0 7358645.36    0  853 7585458.85 7358645.36  2.99%     -    2s
+     0     0 7358649.23    0  853 7585458.85 7358649.23  2.99%     -    2s
+     0     2 7358651.73    0  853 7585458.85 7358651.73  2.99%     -    2s
+   160   169 7376987.26   12  731 7585458.85 7360476.58  2.97%   513    5s
+   410   419 7414531.63   30  657 7585458.85 7360476.58  2.97%   557   10s
+   640   625 7366293.88    6  779 7585458.85 7361039.16  2.96%   576   15s
+   902   879 7385808.32   34  680 7585458.85 7361039.16  2.96%   584   20s
+  1240  1190 7414234.13   48  638 7585458.85 7361648.25  2.95%   587   25s
+  1595  1440 7433325.15   28  853 7585458.85 7361928.75  2.95%   592   30s
+  1613  1452 7392752.21   34  876 7585458.85 7361928.75  2.95%   585   35s
+  1626  1461 7428975.64   22  887 7585458.85 7361928.75  2.95%   580   40s
+  1727  1538 7372981.77   19  781 7585458.85 7361928.75  2.95%   598   45s
+  1845  1621 7385106.04   28  757 7585458.85 7361928.75  2.95%   615   50s
+  1958  1699 7405413.51   36  711 7585458.85 7361928.75  2.95%   636   55s
+  2079  1783 7434215.32   44  658 7585458.85 7361928.75  2.95%   650   60s
+  2152  1822 7485604.71   50  631 7585458.85 7361928.75  2.95%   663   65s
+  2217  1853 7472037.46   53  675 7585458.85 7361928.75  2.95%   674   70s
+  2270  1879 7538221.66   56  675 7585458.85 7361928.75  2.95%   684   75s
+  2325  1922 7543199.70   58  718 7585458.85 7361928.75  2.95%   693   80s
+  2512  2026 7370957.90   23  761 7585458.85 7361932.70  2.95%   693   85s
+  2705  2072 7376932.53   31  696 7585458.85 7362714.96  2.94%   694   90s
+  2794  2132 7381595.71   36  684 7585458.85 7362714.96  2.94%   699   96s
+  2855  2170 7390205.01   39  679 7585458.85 7362714.96  2.94%   713  100s
+  2917  2234 7396770.34   44  734 7585458.85 7362714.96  2.94%   726  105s
+  3123  2399 7446076.37   51  671 7585458.85 7362714.96  2.94%   752  112s
+  3214  2442 7439779.41   51  668 7585458.85 7362714.96  2.94%   760  115s
+  3432  2530 7523710.10   55  597 7585458.85 7362714.96  2.94%   768  120s
+  3663  2641 7445831.26   27  716 7585458.85 7362714.96  2.94%   775  125s
+  3926  2768 7393901.44   25  684 7585458.85 7362714.96  2.94%   775  131s
+  4272  2905 7405360.10   27  726 7585458.85 7364228.68  2.92%   763  138s
+  4408  2983 7469173.83   42  559 7585458.85 7364228.68  2.92%   764  141s
+  4598  3034 7375447.84   24  717 7585458.85 7364919.31  2.91%   760  145s
+  4904  3144 7458705.41   38  723 7585458.85 7364919.31  2.91%   764  152s
+  5061  3204 7536718.74   46  574 7585458.85 7365300.16  2.90%   766  156s
+  5234  3269 7400186.03   24  701 7585458.85 7365300.16  2.90%   768  160s
+  5505  3382 7395604.55   22  739 7585458.85 7365583.15  2.90%   784  168s
+  5684  3456 7374967.30   22  692 7585458.85 7365861.00  2.89%   790  172s
+  5894  3518 infeasible   39      7585458.85 7366029.76  2.89%   789  177s
+  6052  3615 7409712.38   26  800 7585458.85 7366258.68  2.89%   796  181s
+  6271  3740 7369800.89   19  745 7585458.85 7366369.51  2.89%   798  186s
+  6498  3911 7583062.93   40  474 7585458.85 7366465.66  2.89%   798  192s
+  6687  4127 7523266.74   36  594 7585458.85 7366688.12  2.88%   803  197s
+  6934  4386 7483450.07   41  528 7585458.85 7366726.52  2.88%   804  203s
+  7240  4599 7421976.41   32  701 7585458.85 7366849.14  2.88%   802  208s
+  7555  4870 7389681.25   30  648 7585458.85 7366931.17  2.88%   798  213s
+  7914  5049 7414175.34   32  699 7585458.85 7366931.17  2.88%   790  219s
+  8216  5249 7382140.25   23  758 7585458.85 7367334.41  2.88%   788  224s
+  8466  5452 7478195.65   36  531 7585458.85 7367334.41  2.88%   796  230s
+  8851  5552 7369757.87   19  743 7585458.85 7367506.92  2.87%   791  236s
+  9016  5673 7369524.18   20  749 7585458.85 7367506.92  2.87%   790  243s
+  9211  5805 7371044.67   20  704 7585458.85 7367506.92  2.87%   789  250s
+  9407  5940 7370645.37   21  739 7585458.85 7367815.49  2.87%   792  256s
+  9618  6096 7371948.67   21  656 7585458.85 7367833.50  2.87%   795  263s
+  9839  6477 7373469.74   22  725 7585458.85 7367938.71  2.87%   798  270s
+ 10248  6723 7372782.01   22  733 7585458.85 7367938.71  2.87%   792  277s
+ 10611  7002 7373167.26   23  748 7585458.85 7368032.13  2.87%   788  285s
+ 10962  7273 7435017.60   46  540 7585458.85 7368097.98  2.87%   788  294s
+ 11366  7589 7427079.05   35  694 7585458.85 7368097.98  2.87%   788  302s
+ 11834  7878 infeasible   29      7585458.85 7368364.00  2.86%   785  312s
+ 12294  8193 7377018.23   20  798 7585458.85 7368693.00  2.86%   785  320s
+ 12695  8972 7447504.54   24  728 7585458.85 7368808.75  2.86%   789  331s
+ 13586  8979 7524851.96   38  712 7585458.85 7368808.75  2.86%   777  339s
+ 13595  9120 7545056.62   39  647 7585458.85 7368808.75  2.86%   777  348s
+ 13830  9474 7498773.71   31  683 7585458.85 7368808.75  2.86%   779  358s
+ 14588  9873 7517030.74   39  595 7585458.85 7369104.11  2.85%   773  370s
+ 15093 10400     cutoff   40      7585458.85 7369232.28  2.85%   781  382s
+ 15984 10689 7442275.49   29  707 7585458.85 7369359.60  2.85%   778  392s
+ 16478 11064 7388998.58   27  765 7585458.85 7369475.56  2.85%   784  403s
+ 17072 11563 7405234.93   26  740 7585458.85 7369577.08  2.85%   787  415s
+ 17652 12099 7451348.80   33  698 7585458.85 7369695.49  2.84%   788  426s
+ 18348 12738 7379151.72   22  808 7585458.85 7369737.00  2.84%   792  438s
+ 19303 13087 infeasible   32      7585458.85 7369896.14  2.84%   784  451s
+ 19887 13553 infeasible   34      7585458.85 7370122.51  2.84%   790  465s
+ 20589 13983 7396683.94   27  716 7585458.85 7370176.71  2.84%   791  479s
+ 21349 14415 7509171.69   33  594 7585458.85 7370282.34  2.84%   792  493s
+ 21918 15030 7449640.49   44  656 7585458.85 7370446.98  2.83%   800  508s
+ 22783 15293 7519462.99   31  700 7585458.85 7370572.24  2.83%   800  523s
+ 23166 15952 7412936.32   38  746 7585458.85 7370660.18  2.83%   803  538s
+ 24110 16457 7501214.28   42  650 7585458.85 7370689.08  2.83%   802  551s
+ 24912 16807 7400687.74   26  661 7585458.85 7370863.20  2.83%   804  565s
+ 25511 17525 7376747.62   25  790 7585458.85 7370944.43  2.83%   810  579s
+ 26427 18209 7387342.79   34  748 7585458.85 7371044.67  2.83%   808  594s
+ 27334 18693     cutoff   85      7585458.85 7371044.67  2.83%   808  608s
+ 28194 18829 7383079.55   27  777 7585458.85 7371253.37  2.82%   808  620s
+ 28446 19131 7384231.01   28  740 7585458.85 7371253.37  2.82%   808  634s
+ 28892 19760 7386136.38   29  751 7585458.85 7371255.22  2.82%   811  651s
+ 29690 19761 7492208.68   61  853 7585458.85 7371442.87  2.82%   813  697s
+ 29693 19763 7393219.64   30  843 7585458.85 7371442.87  2.82%   813  700s
+ 29701 19768 7434707.63   34  879 7585458.85 7371442.87  2.82%   812  705s
+ 29708 19773 7384225.24   37  949 7585458.85 7371442.87  2.82%   812  710s
+ 29715 19778 7403780.62   34  994 7585458.85 7371442.87  2.82%   812  715s
+
+Cutting planes:
+  Cover: 9
+  Clique: 233
+  Flow cover: 68
+  Inf proof: 1
+  Zero half: 60
+  Relax-and-lift: 16
+
+Explored 29719 nodes (24153859 simplex iterations) in 720.00 seconds (1929.11 work units)
+Thread count was 8 (of 32 available processors)
+
+Solution count 2: 7.58546e+06 7.58554e+06 
+
+Time limit reached
+Best objective 7.585458845457e+06, best bound 7.371442874259e+06, gap 2.8214%
+SPP completed
+
+===========================================
+running on iteration 47:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 48:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 49:
+current ec = 7431027.1097436436
+current total_time = 15899.9301333884
+current total_dis = 18373.1104434249
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 50:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 51:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 52:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 53:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 54:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 55:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 56:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 57:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 58:
+current ec = 7396812.3774492694
+current total_time = 15805.8285804436
+current total_dis = 18297.1800807563
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+Route1: 368 453 969 850 695 118 6 
+Route2: 752 907 446 633 109 
+Route3: 569 427 67 492 685 
+Route4: 631 709 481 62 91 495 886 74 
+Route5: 144 186 366 378 561 947 
+Route6: 365 313 784 720 860 204 
+Route7: 339 373 514 98 452 
+Route8: 359 985 94 719 202 839 
+Route9: 586 914 681 205 289 354 
+Route10: 44 340 777 21 871 449 316 
+Route11: 789 106 595 235 83 208 
+Route12: 635 520 941 65 64 701 521 
+Route13: 952 219 30 423 876 
+Route14: 735 779 873 835 14 
+Route15: 293 601 699 341 872 
+Route16: 134 93 54 429 173 505 
+Route17: 125 312 162 246 195 405 527 
+Route18: 598 47 351 727 183 834 
+Route19: 269 25 667 97 364 331 974 
+Route20: 224 867 822 531 652 753 
+Route21: 225 230 913 131 266 
+Route22: 59 728 424 666 602 
+Route23: 182 136 832 229 618 768 
+Route24: 471 462 874 112 285 397 95 
+Route25: 911 843 382 90 439 891 
+Route26: 761 690 228 438 573 393 455 
+Route27: 616 530 353 896 794 379 554 
+Route28: 705 24 459 977 167 36 476 
+Route29: 40 657 468 101 311 609 
+Route30: 855 138 821 816 628 
+Route31: 114 766 31 693 563 722 878 96 
+Route32: 119 380 755 458 802 4 436 711 337 
+Route33: 129 153 489 66 580 647 
+Route34: 515 745 922 890 771 211 409 758 363 
+Route35: 421 387 394 512 659 498 
+Route36: 323 193 237 978 
+Route37: 278 210 875 940 596 
+Route38: 827 371 800 161 698 831 744 
+Route39: 157 847 38 532 607 645 
+Route40: 552 610 84 958 976 574 
+Route41: 315 318 858 679 437 
+Route42: 287 356 189 264 928 432 385 
+Route43: 242 942 603 206 178 538 
+Route44: 961 216 656 146 260 
+Route45: 141 70 880 817 715 399 
+Route46: 7 899 796 445 12 425 
+Route47: 58 732 893 319 528 923 
+Route48: 721 233 537 317 819 
+Route49: 158 369 3 245 327 151 
+Route50: 747 457 877 154 197 842 
+Route51: 926 533 707 140 706 
+Route52: 549 239 467 539 644 887 
+Route53: 987 430 306 749 948 823 
+Route54: 257 836 17 966 232 130 848 
+Route55: 8 55 104 998 171 137 522 333 
+Route56: 451 894 971 145 787 799 
+Route57: 273 133 654 122 902 803 
+Route58: 901 200 581 209 488 845 
+Route59: 783 221 297 870 953 391 76 
+Route60: 594 840 111 299 374 932 
+Route61: 308 121 731 165 215 697 
+Route62: 989 583 915 856 222 770 304 
+Route63: 77 676 895 390 691 780 
+Route64: 769 442 590 156 820 346 487 
+Route65: 465 117 231 194 815 160 281 
+Route66: 651 499 149 259 123 322 
+Route67: 345 441 45 517 422 139 892 
+Route68: 703 648 579 192 975 577 
+Route69: 428 760 511 696 742 334 108 
+Route70: 86 639 276 107 188 370 518 
+Route71: 5 291 864 1000 825 
+Route72: 535 543 135 712 88 275 584 290 
+Route73: 764 35 358 632 279 
+Route74: 951 668 418 503 324 456 89 
+Route75: 935 444 300 640 389 152 
+Route76: 288 746 792 447 765 480 936 
+Route77: 965 717 929 252 175 343 724 19 
+Route78: 556 600 622 927 910 256 329 
+Route79: 557 103 934 525 72 718 
+Route80: 630 672 900 649 741 263 
+Route81: 692 504 534 529 904 957 217 806 
+Route82: 516 177 665 218 785 384 938 588 
+Route83: 330 933 734 419 736 463 
+Route84: 759 997 566 105 472 
+Route85: 301 863 305 238 113 558 774 42 
+Route86: 714 775 763 650 460 671 82 203 185 
+Route87: 179 383 328 375 223 979 404 392 830 
+Route88: 909 350 617 983 973 147 69 992 
+Route89: 486 274 548 920 677 407 
+Route90: 807 713 810 646 613 996 
+Route91: 187 155 781 485 493 201 491 
+Route92: 163 20 995 1 924 18 
+Route93: 694 248 708 479 638 885 
+Route94: 889 406 545 268 168 612 191 546 
+Route95: 897 726 916 500 241 344 
+Route96: 401 34 716 56 142 172 372 
+Route97: 737 788 541 474 738 292 918 
+Route98: 593 198 669 357 116 663 
+Route99: 642 513 949 964 615 388 132 838 
+Route100: 812 994 461 824 482 332 
+Route101: 664 410 180 433 575 551 342 63 
+Route102: 255 386 791 234 272 508 
+Route103: 22 678 627 866 956 270 859 71 
+Route104: 852 68 811 148 790 48 362 
+Route105: 174 519 50 286 826 326 
+Route106: 970 398 729 849 159 571 190 
+Route107: 637 619 687 740 903 483 484 945 
+Route108: 980 673 127 352 743 
+Route109: 420 778 282 49 126 984 857 
+Route110: 797 921 605 507 80 184 426 475 57 
+Route111: 396 750 361 85 434 335 
+Route112: 660 641 92 670 562 725 547 
+Route113: 626 310 955 402 804 26 469 
+Route114: 960 79 828 919 884 908 321 303 262 
+Route115: 809 416 963 253 585 730 962 853 
+Route116: 704 443 143 199 597 53 220 
+Route117: 28 986 795 567 367 440 477 680 
+Route118: 250 267 944 841 999 589 338 
+Route119: 888 564 408 395 946 501 
+Route120: 296 295 662 818 16 560 689 
+Route121: 502 261 75 524 166 413 124 
+Route122: 710 51 52 10 212 497 
+Route123: 536 655 621 868 
+Route124: 912 414 988 320 283 879 682 15 
+Route125: 400 169 411 990 81 608 243 
+Route126: 591 582 254 862 258 604 559 
+Route127: 244 620 611 629 46 32 
+Route128: 674 309 846 431 757 570 981 
+Route129: 937 700 355 325 226 360 376 
+Route130: 869 478 576 494 555 227 
+Route131: 733 606 2 240 298 509 128 
+Route132: 565 510 466 73 454 898 470 
+Route133: 115 213 87 247 658 756 739 773 592 
+Route134: 675 181 950 544 751 348 
+Route135: 813 251 415 786 684 959 
+Route136: 448 634 661 496 587 767 
+Route137: 861 43 11 754 624 271 865 
+Route138: 572 265 13 578 954 78 27 196 
+Route139: 844 39 967 336 625 349 307 214 
+Route140: 805 526 347 236 653 
+Route141: 906 412 99 102 490 688 748 
+Route142: 972 314 829 636 377 277 61 
+Route143: 41 772 762 550 29 991 
+Route144: 793 249 623 176 506 686 
+Route145: 683 993 164 930 473 381 
+Route146: 614 782 120 643 294 801 599 851 
+Route147: 814 207 982 284 403 702 
+Route148: 882 837 170 917 798 968 280 
+Route149: 302 939 833 417 60 540 523 
+Route150: 881 33 450 931 943 925 435 150 
+Route151: 37 854 776 553 808 883 568 100 
+Route152: 905 9 464 542 23 723 110 
+energy consumption = 7380394.6544995112
+total time = 15756.7275250829
+total distance = 18263.2150125581
