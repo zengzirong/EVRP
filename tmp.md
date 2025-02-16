@@ -20,7 +20,12 @@ StartTime EndTime FloatNumber Speed
 
 compiling commands:
 GUROBI_HOME="/Library/gurobi1200/macos_universal2/"
-clang++ main.cpp -I${GUROBI_HOME}/include/ -L${GUROBI_HOME}/lib -lgurobi_c++ -lgurobi120 -o main
+clang++ seed=10_main.cpp -I${GUROBI_HOME}/include/ -L${GUROBI_HOME}/lib -lgurobi_c++ -lgurobi120 -o seed=10_main
+clang++ seed=20_main.cpp -I${GUROBI_HOME}/include/ -L${GUROBI_HOME}/lib -lgurobi_c++ -lgurobi120 -o seed=20_main
+clang++ seed=30_main.cpp -I${GUROBI_HOME}/include/ -L${GUROBI_HOME}/lib -lgurobi_c++ -lgurobi120 -o seed=30_main
+clang++ seed=40_main.cpp -I${GUROBI_HOME}/include/ -L${GUROBI_HOME}/lib -lgurobi_c++ -lgurobi120 -o seed=40_main
+clang++ seed=50_main.cpp -I${GUROBI_HOME}/include/ -L${GUROBI_HOME}/lib -lgurobi_c++ -lgurobi120 -o seed=50_main
+clang++ NO_LS.cpp -I${GUROBI_HOME}/include/ -L${GUROBI_HOME}/lib -lgurobi_c++ -lgurobi120 -o NO_LS
 ./main <data_file_path>
 
 

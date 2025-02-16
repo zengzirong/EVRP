@@ -4,14 +4,15 @@ using namespace std;
 
 const int N = 2000+5;
 const int M = 10000;
+double const_m = 1507;
 const double const_y = 460.96;
-const double const_m = 1507;
+// const double const_m = 1507;
 const double const_r = 479.1;
 const double const_s = -18.93;
 const double const_c = 0.7876;
 const double eps = 1e-6;
 int VehicleNumber;
-double VechicleCapacity, Electricity;
+double VehicleCapacity, Electricity;
 
 double time_limit = 7200.00;
 string data_file;
@@ -20,6 +21,8 @@ string data_file;
 vector<vector<int> > route_pool;
 vector<vector<int> > route_ids;
 vector<vector<int> > candidate_routes;
+
+time_t s_time, t_time;
 
 int n;
 struct node{
@@ -79,8 +82,8 @@ inline pdd get_val(int x, int y, double start_time, double load)
             double a = speed[id][pos].a;
             ec += const_c / 4.0 * power(a, 3) * power(t, 4);
             ec += (const_s / 3.0 * power(a, 2) + const_c * cur_v * power(a, 2)) * power(t, 3);
-            ec += (const_r * a / 2.0 + const_s * cur_v * a + 1.5 * const_c * power(cur_v, 2) * a + (const_m + load) / 2.0 * power(a, 2)) * power(t, 2);
-            ec += (const_r * cur_v + const_s * power(cur_v, 2) + const_c * power(cur_v, 3) + (const_m + load) * a * cur_v) * t;
+            ec += (const_r * a / 2.0 + const_s * cur_v * a + 1.5 * const_c * power(cur_v, 2) * a + (const_m + load) / 2.0 * a * abs(a)) * power(t, 2);
+            ec += (const_r * cur_v + const_s * power(cur_v, 2) + const_c * power(cur_v, 3) + (const_m + load) * abs(a) * cur_v) * t;
             cur_v = speed[id][pos+1].v;
             cur_time = speed[id][pos+1].t;
             d -= tmp_dis;
@@ -96,8 +99,8 @@ inline pdd get_val(int x, int y, double start_time, double load)
             double a = speed[id][pos].a;
             ec += const_c / 4.0 * power(a, 3) * power(t, 4);
             ec += (const_s / 3.0 * power(a, 2) + const_c * cur_v * power(a, 2)) * power(t, 3);
-            ec += (const_r * a / 2.0 + const_s * cur_v * a + 1.5 * const_c * power(cur_v, 2) * a + (const_m + load) / 2.0 * power(a, 2)) * power(t, 2);
-            ec += (const_r * cur_v + const_s * power(cur_v, 2) + const_c * power(cur_v, 3) + (const_m + load) * a * cur_v) * t; 
+            ec += (const_r * a / 2.0 + const_s * cur_v * a + 1.5 * const_c * power(cur_v, 2) * a + (const_m + load) / 2.0 * a * abs(a)) * power(t, 2);
+            ec += (const_r * cur_v + const_s * power(cur_v, 2) + const_c * power(cur_v, 3) + (const_m + load) * abs(a) * cur_v) * t;
             cur_time += t;
             d = 0;
         }
@@ -132,7 +135,7 @@ inline RouteInfo get_route_info(vector<int> route)
     if(!route.size()) return (RouteInfo){0, 0, 0};
     double load = 0;
     for(auto k : route) load += pickups[k].demand;
-    if(load > VechicleCapacity) return (RouteInfo){inf, inf, inf};
+    if(load > VehicleCapacity) return (RouteInfo){inf, inf, inf};
     double total_dis = get_route_dis(route);
     if(total_dis > Electricity) return (RouteInfo){inf, inf, inf};
     double cur_time = 0, cur_ec = 0; 
@@ -219,8 +222,10 @@ inline void read_data()
     cin.close();
     data_file = "../" + data_file;
     cin.open(data_file);
-    cin >> VehicleNumber >> VechicleCapacity >> Electricity;
+    cin >> VehicleNumber >> VehicleCapacity >> Electricity;
     n = VehicleNumber;
+    // const_m += 300 * (VehicleCapacity / 1000 - 1);
+    const_m *= max(1.0, VehicleCapacity / 1000.0);
     string trash;
     for(int i = 1; i <= 11; i++) cin >> trash; 
     cin >> trash; // [pickup]
@@ -432,10 +437,12 @@ inline void update_route(vector<int> &route)
 }
 inline void local_search(Solution &solution)
 {
-    return;
     int tot = 0;
     while(true)
     {
+        time(&t_time);
+        if(t_time - s_time > time_limit) break;
+        
         tot++;
         // printf("tot = %d\n", tot);
         bool flag = false;
@@ -847,7 +854,11 @@ inline Solution SPP()
         GRBModel model = GRBModel(env);
         model.set(GRB_IntParam_Threads, 8);  // 设置线程数为 8
         // ///time limit
-        model.set(GRB_DoubleParam_TimeLimit, 720.0);
+        time(&t_time);
+        double time_remain = time_limit - (t_time - s_time);
+        time_remain = max(time_remain, 15.0);
+        time_remain = min(time_remain, 720.0);
+        model.set(GRB_DoubleParam_TimeLimit, time_remain);
         // Create variables
         for(int i = 0; i < cnt; i++) var[i] = model.addVar(0.0, 1.0, 0.0, GRB_BINARY);
         // Set objective
@@ -876,43 +887,19 @@ inline Solution SPP()
     ans.update();
     if(!check_route(ans.routes))
     {
-        cout<<"bomb!"<<endl;
-        // for(int i = 0; i < cnt; i++)
-        // {
-        //     for(auto k : candidate_routes[i]) cout << k << " ";
-        //     cout << endl;
-        //     cout << "ec = " << tmp_ec[i];
-        //     cout << endl;
-        // }
-        // cout << "=========================" << endl;
-        
-        // for(auto route : ans.routes)
-        // {
-        //     for(auto k : route) cout << k << " ";
-        //     cout << endl;
-        // }
-
-        // cout << "=========================" << endl;
-
-        // for(int i = 0; i < cnt; i++)
-        // {
-        //     if(abs(var[i].get(GRB_DoubleAttr_X) - 1.0) < eps) 
-        //     {
-        //         for(auto k : candidate_routes[i]) cout << k << " ";
-        //         cout << endl;
-        //     }
-        // }
-        assert(false);
+        cout<<"incorrect routes"<<endl;
+        ans.ec = inf;
     }
     return ans;
 }
 
-const double r_min = 0.23;
+const double r_min = 0.01;
 const double r_max = 0.85;
-const double const_e = 0.02;
+const double const_e = 0.04;
+
 inline Solution LNS()
 {
-    double start_time = clock();
+    // double start_time = clock();
     Solution cur_solution = init();
     // cout<<"initial solution:"<<endl;
     // double distance = 0;
@@ -938,12 +925,15 @@ inline Solution LNS()
     for(auto route : cur_solution.routes)
         if((int)route_pool.size() < 8000)
             route_pool.push_back(route);
-    // exit(0);
     
     int fail_count = 0;
     int iterations = 0;
+
     while(true)
     {
+        time(&t_time);
+        if(t_time - s_time > time_limit) break;
+
         iterations++;
         cout<<endl;
         cout<<"==========================================="<<endl;
@@ -964,14 +954,12 @@ inline Solution LNS()
             cout<<"bomb1!"<<endl;
             assert(false);
         }
-        // for(auto route : tmp_solution.routes)
-        // {
-        //     for(auto k : route) cout << k << " ";
-        //     cout<<endl;
-        // }
+
         cout<<"running on LNS_remove"<<endl;
         LNS_remove(tmp_solution, cnt);
         cout<<"remove completed"<<endl;
+        time(&t_time);
+        if(t_time - s_time > time_limit) break;
 
         cout<<"running on LNS_insert"<<endl;
         LNS_insert(tmp_solution);
@@ -982,10 +970,15 @@ inline Solution LNS()
             cout<<"bomb2!"<<endl;
             assert(false);
         }
+
+        time(&t_time);
+        if(t_time - s_time > time_limit) break;
+
         tmp_solution.update();
         for(auto route : tmp_solution.routes)
             if((int)route_pool.size() < 8000)
                 route_pool.push_back(route);
+
         // if(tmp_solution.ec < 1.25 * cur_solution.ec) 
         // {
         //     cout<<"running local search"<<endl;
@@ -1000,7 +993,7 @@ inline Solution LNS()
         //         if((int)route_pool.size() < 8000)
         //             route_pool.push_back(route);
         // }
-        // else if(iterations % 5 == 0)
+        // else if(iterations % 5 == 0 && tmp_solution.ec < inf)
         // {
         //     cout<<"running local search"<<endl;
         //     local_search(tmp_solution);
@@ -1015,6 +1008,9 @@ inline Solution LNS()
         //             route_pool.push_back(route);
         // }
 
+        time(&t_time);
+        if(t_time - s_time > time_limit) break;
+
         if(tmp_solution.ec < cur_solution.ec)
         {
             fail_count = 0;
@@ -1022,8 +1018,8 @@ inline Solution LNS()
         }
         else fail_count++;
 
-        double cur_time = clock();
-        if((cur_time - start_time) / CLOCKS_PER_SEC > time_limit) break;
+        // double cur_time = clock();
+        // if((cur_time - start_time) / CLOCKS_PER_SEC > time_limit) break;
         if(iterations >= 10 * n) break;
         if((int)route_pool.size() >= 8000)
         {
@@ -1042,8 +1038,8 @@ inline Solution LNS()
 
 int main(int argc, char* argv[])
 {
-    double start_time = clock();
-    srand(40);
+    time(&s_time);
+    srand(30);
     if (argc < 2) {
         cout << "Usage: " << argv[0] << " <data_file_path>" << endl;
         return 1;
@@ -1066,7 +1062,7 @@ int main(int argc, char* argv[])
     printf("energy consumption = %.10f\n", ans.ec);
     printf("total time = %.10f\n", ans.total_time);
     printf("total distance = %.10f\n", ans.total_dis);
-    double end_time = clock();
-    printf("running time = %.10f\n", (end_time - start_time) / CLOCKS_PER_SEC);
+    time(&t_time);
+    printf("running time = %ld\n", t_time - s_time);
     return 0;
 }

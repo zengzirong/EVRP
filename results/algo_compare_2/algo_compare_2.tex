@@ -1,0 +1,37 @@
+\begin{table}[htbp]
+    \caption{Comparison of the  solutions found by LNS-SPP, LNS-LS, and LNS-SPP without LS in differnent running time.}
+    \label{tab:LSandSPP}
+    \centering
+    \resizebox{0.6\textwidth}{!}{
+    \begin{tabular}{cccccc} 
+    \toprule
+    Ins                  & n                     & Time(s) & $W_{\text{LNS-SPP}}$                        & \begin{tabular}[c]{@{}c@{}}only SPP, no LS\\Gap1 (\%)\end{tabular} & \begin{tabular}[c]{@{}c@{}}only LS, no SPP\\Gap2 (\%)\end{tabular}  \\ 
+    \midrule
+    \multirow{4}{*}{001} & \multirow{4}{*}{200}  & 600     & 2228172.60                & -3.41                                                         & -0.03                                         \\
+                         &                       & 900     & 2226570.13      & -2.56                                                         & -0.11                                         \\
+                         &                       & 1200    & 2194200.84                 & -1.54                                                         & -1.56                                         \\
+                         &                       & 3600    & 2189425.16  & -1.65                                                         & -1.77                                         \\ 
+    \midrule
+    \multirow{4}{*}{006} & \multirow{4}{*}{400}  & 600     & 4306938.46                & -4.26                                                         & -0.04                                         \\
+                         &                       & 900     & 4285275.43      & -4.57                                                         & \textcolor{red}{0.04}                         \\
+                         &                       & 1200    & 4282064.05                 & -4.41                                                         & \textcolor{red}{0.11}                         \\
+                         &                       & 3600    & 4233093.80  & -2.33                                                         & -0.96                                         \\ 
+    \midrule
+    \multirow{4}{*}{011} & \multirow{4}{*}{600}  & 600     & 6175192.74                & -3.26                                                         & \textcolor{blue}{0.00}                        \\
+                         &                       & 900     & 6166190.92      & -3.40                                                         & -0.06                                         \\
+                         &                       & 1200    & 6157585.96                 & -3.08                                                         & -0.03                                         \\
+                         &                       & 3600    & 6118394.10  & -2.29                                                         & -0.58                                         \\ 
+    \midrule
+    \multirow{4}{*}{016} & \multirow{4}{*}{800}  & 600     & 8333234.35                & -2.67                                                         & \textcolor{blue}{0.00}                        \\
+                         &                       & 900     & 8333234.35      & -2.67                                                         & \textcolor{blue}{0.00}                        \\
+                         &                       & 1200    & 8333234.35                 & -2.54                                                         & \textcolor{blue}{0.00}                        \\
+                         &                       & 3600    & 8276247.19  & -1.87                                                         & -0.61                                         \\ 
+    \midrule
+    \multirow{4}{*}{021} & \multirow{4}{*}{1000} & 600     & 10227337.66               & -3.82                                                         & \textcolor{blue}{0.00}                        \\
+                         &                       & 900     & 10155391.56     & -4.50                                                         & \textcolor{blue}{0.00}                        \\
+                         &                       & 1200    & 10155391.56                & -3.42                                                         & \textcolor{blue}{0.00}                         \\
+                         &                       & 3600    & 10124253.98 & -2.24                                                         & -0.07                                         \\
+    \bottomrule
+    \end{tabular}
+    }
+    \end{table} 

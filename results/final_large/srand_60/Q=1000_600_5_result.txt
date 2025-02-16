@@ -1,0 +1,3249 @@
+energy consumption = 19653634.2984955683
+init completed
+
+===========================================
+running on iteration 1:
+current ec = 19653634.2984955683
+current total_time = 36180.6038267308
+current total_dis = 40547.4248976370
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 2:
+current ec = 18182933.1740178242
+current total_time = 33058.2608194622
+current total_dis = 37444.3994265714
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 3:
+current ec = 17438466.1382846087
+current total_time = 31049.1650492775
+current total_dis = 35859.5205123739
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 4:
+current ec = 17052185.2490456738
+current total_time = 30067.5952586225
+current total_dis = 35033.4984601021
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 5:
+current ec = 16868298.2930651680
+current total_time = 29582.8403179341
+current total_dis = 34636.4044666160
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 6:
+current ec = 16736039.9901453592
+current total_time = 29251.4914042488
+current total_dis = 34354.8818121196
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 7:
+current ec = 16699000.1504616104
+current total_time = 29134.9859558549
+current total_dis = 34274.5963394243
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 8076 nonzeros
+Model fingerprint: 0x2ca13f0f
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 8e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.965363e+07
+Presolve removed 202 rows and 7367 columns
+Presolve time: 0.08s
+Presolved: 398 rows, 633 columns, 1565 nonzeros
+Found heuristic solution: objective 1.882320e+07
+Variable types: 0 continuous, 633 integer (633 binary)
+Found heuristic solution: objective 1.855603e+07
+
+Root relaxation: objective 1.657901e+07, 484 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.6579e+07    0    8 1.8556e+07 1.6579e+07  10.7%     -    0s
+H    0     0                    1.855372e+07 1.6579e+07  10.6%     -    0s
+H    0     0                    1.663997e+07 1.6579e+07  0.37%     -    0s
+H    0     0                    1.662928e+07 1.6579e+07  0.30%     -    0s
+H    0     0                    1.658259e+07 1.6579e+07  0.02%     -    0s
+     0     0 infeasible    0      1.6583e+07 1.6583e+07  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Clique: 1
+  Zero half: 1
+
+Explored 1 nodes (493 simplex iterations) in 0.20 seconds (0.03 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 7: 1.65826e+07 1.66293e+07 1.664e+07 ... 1.96536e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.658259107361e+07, best bound 1.658259107361e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 8:
+current ec = 16582591.0736101065
+current total_time = 29059.9728423302
+current total_dis = 34036.4437678676
+remove/insert cnt = 29
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 9:
+current ec = 16504626.5552970022
+current total_time = 28891.0654353334
+current total_dis = 33872.4263842070
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 10:
+current ec = 16504626.5552970022
+current total_time = 28891.0654353334
+current total_dis = 33872.4263842070
+remove/insert cnt = 20
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 11:
+current ec = 16504498.2535983901
+current total_time = 28890.6501159856
+current total_dis = 33872.1536256322
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 12:
+current ec = 16504498.2535983901
+current total_time = 28890.6501159856
+current total_dis = 33872.1536256322
+remove/insert cnt = 25
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 13:
+current ec = 16504498.2535983883
+current total_time = 28890.6501159856
+current total_dis = 33872.1536256322
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 14:
+current ec = 16504498.2535983883
+current total_time = 28890.6501159856
+current total_dis = 33872.1536256322
+remove/insert cnt = 23
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 15:
+current ec = 16504498.2535983883
+current total_time = 28890.6501159856
+current total_dis = 33872.1536256322
+remove/insert cnt = 36
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 16:
+current ec = 16495129.9888777193
+current total_time = 28858.4194422781
+current total_dis = 33850.4970505130
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 17:
+current ec = 16495129.9888777193
+current total_time = 28858.4194422781
+current total_dis = 33850.4970505130
+remove/insert cnt = 10
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 18:
+current ec = 16495129.9888777174
+current total_time = 28858.4194422781
+current total_dis = 33850.4970505130
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 19:
+current ec = 16495129.9888777174
+current total_time = 28858.4194422781
+current total_dis = 33850.4970505130
+remove/insert cnt = 29
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 20:
+current ec = 16495129.9888777174
+current total_time = 28858.4194422781
+current total_dis = 33850.4970505130
+remove/insert cnt = 20
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 21:
+current ec = 16495129.9888777155
+current total_time = 28858.4194422781
+current total_dis = 33850.4970505130
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 16564 nonzeros
+Model fingerprint: 0x66dc9fb8
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 8e+04]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.657374e+07
+Presolve removed 589 rows and 7986 columns
+Presolve time: 0.02s
+Presolved: 11 rows, 14 columns, 35 nonzeros
+Found heuristic solution: objective 1.650102e+07
+Variable types: 0 continuous, 14 integer (14 binary)
+
+Root relaxation: objective 1.649487e+07, 7 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.649487e+07 1.6495e+07  0.00%     -    0s
+
+Explored 1 nodes (7 simplex iterations) in 0.03 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 1.64949e+07 1.6501e+07 1.65737e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.649487313660e+07, best bound 1.649487313660e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 22:
+current ec = 16494873.1365959775
+current total_time = 28855.2222449049
+current total_dis = 33850.1640468630
+remove/insert cnt = 28
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 23:
+current ec = 16494873.1365959775
+current total_time = 28855.2222449049
+current total_dis = 33850.1640468630
+remove/insert cnt = 20
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 24:
+current ec = 16494873.1365959775
+current total_time = 28855.2222449049
+current total_dis = 33850.1640468630
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 25:
+current ec = 16494795.4797154460
+current total_time = 28851.8162290540
+current total_dis = 33850.7483651651
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 26:
+current ec = 16494795.4797154460
+current total_time = 28851.8162290540
+current total_dis = 33850.7483651651
+remove/insert cnt = 7
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 27:
+current ec = 16494795.4797154460
+current total_time = 28851.8162290540
+current total_dis = 33850.7483651651
+remove/insert cnt = 14
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 28:
+current ec = 16494795.4797154460
+current total_time = 28851.8162290540
+current total_dis = 33850.7483651651
+remove/insert cnt = 59
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 29:
+current ec = 16494795.4797154460
+current total_time = 28851.8162290540
+current total_dis = 33850.7483651651
+remove/insert cnt = 62
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 30:
+current ec = 16494795.4797154460
+current total_time = 28851.8162290540
+current total_dis = 33850.7483651651
+remove/insert cnt = 105
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 31:
+current ec = 16494795.4797154460
+current total_time = 28851.8162290540
+current total_dis = 33850.7483651651
+remove/insert cnt = 78
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 32:
+current ec = 16435989.4802647922
+current total_time = 28765.2108173984
+current total_dis = 33728.2763658514
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 33:
+current ec = 16435989.4802647922
+current total_time = 28765.2108173984
+current total_dis = 33728.2763658514
+remove/insert cnt = 18
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 34:
+current ec = 16435989.4802647922
+current total_time = 28765.2108173984
+current total_dis = 33728.2763658514
+remove/insert cnt = 49
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 35:
+current ec = 16435989.4802647922
+current total_time = 28765.2108173984
+current total_dis = 33728.2763658514
+remove/insert cnt = 17
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 36:
+current ec = 16435989.4802647922
+current total_time = 28765.2108173984
+current total_dis = 33728.2763658514
+remove/insert cnt = 70
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 16617 nonzeros
+Model fingerprint: 0x7eb217ac
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.664038e+07
+Presolve removed 520 rows and 7883 columns
+Presolve time: 0.02s
+Presolved: 80 rows, 117 columns, 250 nonzeros
+Found heuristic solution: objective 1.661806e+07
+Variable types: 0 continuous, 117 integer (117 binary)
+Found heuristic solution: objective 1.659830e+07
+
+Root relaxation: objective 1.643284e+07, 41 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.643284e+07 1.6433e+07  0.00%     -    0s
+
+Explored 1 nodes (41 simplex iterations) in 0.03 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 1.64328e+07 1.65983e+07 1.66181e+07 1.66404e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.643284322538e+07, best bound 1.643284322538e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 37:
+current ec = 16432843.2253800798
+current total_time = 28755.8593951275
+current total_dis = 33719.7505456664
+remove/insert cnt = 90
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 38:
+current ec = 16427621.8490691949
+current total_time = 28726.6642559472
+current total_dis = 33708.1303329525
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 39:
+current ec = 16421552.7210813910
+current total_time = 28702.5050951039
+current total_dis = 33695.2252000237
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 40:
+current ec = 16421552.7210813910
+current total_time = 28702.5050951039
+current total_dis = 33695.2252000237
+remove/insert cnt = 7
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 41:
+current ec = 16421552.7210813873
+current total_time = 28702.5050951039
+current total_dis = 33695.2252000237
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 42:
+current ec = 16421552.7210813873
+current total_time = 28702.5050951039
+current total_dis = 33695.2252000237
+remove/insert cnt = 20
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 43:
+current ec = 16421552.7210813873
+current total_time = 28702.5050951039
+current total_dis = 33695.2252000237
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 44:
+current ec = 16421552.7210813873
+current total_time = 28702.5050951039
+current total_dis = 33695.2252000237
+remove/insert cnt = 72
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 45:
+current ec = 16421552.7210813873
+current total_time = 28702.5050951039
+current total_dis = 33695.2252000237
+remove/insert cnt = 57
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 46:
+current ec = 16406842.5337424967
+current total_time = 28679.0098729995
+current total_dis = 33664.4364370253
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 47:
+current ec = 16406842.5337424967
+current total_time = 28679.0098729995
+current total_dis = 33664.4364370253
+remove/insert cnt = 26
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 48:
+current ec = 16401887.1803088207
+current total_time = 28676.3343117883
+current total_dis = 33652.0839824758
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 49:
+current ec = 16401887.1803088207
+current total_time = 28676.3343117883
+current total_dis = 33652.0839824758
+remove/insert cnt = 9
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 50:
+current ec = 16401759.5244529117
+current total_time = 28676.2164701151
+current total_dis = 33651.8022344938
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 16672 nonzeros
+Model fingerprint: 0x6b6be918
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.655179e+07
+Presolve removed 537 rows and 7915 columns
+Presolve time: 0.02s
+Presolved: 63 rows, 85 columns, 189 nonzeros
+Found heuristic solution: objective 1.656805e+07
+Variable types: 0 continuous, 85 integer (85 binary)
+Found heuristic solution: objective 1.646495e+07
+
+Root relaxation: objective 1.635702e+07, 44 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.6357e+07    0    3 1.6465e+07 1.6357e+07  0.66%     -    0s
+H    0     0                    1.637030e+07 1.6357e+07  0.08%     -    0s
+H    0     0                    1.636216e+07 1.6357e+07  0.03%     -    0s
+
+Explored 1 nodes (44 simplex iterations) in 0.03 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 5: 1.63622e+07 1.63703e+07 1.64649e+07 ... 1.65681e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.636215627948e+07, best bound 1.636215627948e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 51:
+current ec = 16362156.2794820201
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 11
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 52:
+current ec = 16362156.2794820201
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 24
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 53:
+current ec = 16362156.2794820201
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 12
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 54:
+current ec = 16362156.2794820201
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 31
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 55:
+current ec = 16362156.2794820201
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 49
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 56:
+current ec = 16362156.2794820201
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 16
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 57:
+current ec = 16362156.2794820201
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 32
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 58:
+current ec = 16362156.2794820182
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 59:
+current ec = 16362156.2794820182
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 18
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 60:
+current ec = 16362156.2794820182
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 32
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 61:
+current ec = 16362156.2794820163
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 62:
+current ec = 16362156.2794820163
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 24
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 63:
+current ec = 16362156.2794820163
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 14
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 64:
+current ec = 16362156.2794820163
+current total_time = 28615.3274367024
+current total_dis = 33570.6888582543
+remove/insert cnt = 50
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 16752 nonzeros
+Model fingerprint: 0x0921ff05
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.639288e+07
+Presolve removed 600 rows and 8000 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 1.63607e+07 1.63929e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.636071445823e+07, best bound 1.636071445823e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 65:
+current ec = 16360714.4582258780
+current total_time = 28613.2336421981
+current total_dis = 33567.5163366543
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 66:
+current ec = 16360714.4582258780
+current total_time = 28613.2336421981
+current total_dis = 33567.5163366543
+remove/insert cnt = 16
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 67:
+current ec = 16360714.4582258780
+current total_time = 28613.2336421981
+current total_dis = 33567.5163366543
+remove/insert cnt = 30
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 68:
+current ec = 16360714.4582258780
+current total_time = 28613.2336421981
+current total_dis = 33567.5163366543
+remove/insert cnt = 34
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 69:
+current ec = 16360714.4582258780
+current total_time = 28613.2336421981
+current total_dis = 33567.5163366543
+remove/insert cnt = 102
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 70:
+current ec = 16360714.4582258780
+current total_time = 28613.2336421981
+current total_dis = 33567.5163366543
+remove/insert cnt = 126
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 71:
+current ec = 16360714.4582258780
+current total_time = 28613.2336421981
+current total_dis = 33567.5163366543
+remove/insert cnt = 121
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 72:
+current ec = 16360714.4582258780
+current total_time = 28613.2336421981
+current total_dis = 33567.5163366543
+remove/insert cnt = 7
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 73:
+current ec = 16360712.0715764407
+current total_time = 28613.1624724188
+current total_dis = 33567.5163366543
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 74:
+current ec = 16360712.0715764407
+current total_time = 28613.1624724188
+current total_dis = 33567.5163366543
+remove/insert cnt = 13
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 75:
+current ec = 16360712.0715764407
+current total_time = 28613.1624724188
+current total_dis = 33567.5163366543
+remove/insert cnt = 34
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 76:
+current ec = 16360712.0715764407
+current total_time = 28613.1624724188
+current total_dis = 33567.5163366543
+remove/insert cnt = 57
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 77:
+current ec = 16325993.7453937344
+current total_time = 28572.9423313756
+current total_dis = 33495.6325205952
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 78:
+current ec = 16325993.7453937344
+current total_time = 28572.9423313756
+current total_dis = 33495.6325205952
+remove/insert cnt = 19
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 79:
+current ec = 16325993.7453937307
+current total_time = 28572.9423313756
+current total_dis = 33495.6325205953
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 16735 nonzeros
+Model fingerprint: 0x36c8993f
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.016289e+09
+Presolve removed 461 rows and 7834 columns
+Presolve time: 0.02s
+Presolved: 139 rows, 166 columns, 401 nonzeros
+Found heuristic solution: objective 1.657318e+07
+Variable types: 0 continuous, 166 integer (166 binary)
+Found heuristic solution: objective 1.649824e+07
+
+Root relaxation: objective 1.632256e+07, 65 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.632256e+07 1.6323e+07  0.00%     -    0s
+
+Explored 1 nodes (65 simplex iterations) in 0.03 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 1.63226e+07 1.64982e+07 1.65732e+07 1.01629e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.632255971037e+07, best bound 1.632255971037e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 80:
+current ec = 16322559.7103692498
+current total_time = 28561.2853948822
+current total_dis = 33488.3588541725
+remove/insert cnt = 20
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 81:
+current ec = 16322559.7103692498
+current total_time = 28561.2853948822
+current total_dis = 33488.3588541725
+remove/insert cnt = 18
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 82:
+current ec = 16322559.7103692498
+current total_time = 28561.2853948822
+current total_dis = 33488.3588541725
+remove/insert cnt = 19
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 83:
+current ec = 16322559.7103692498
+current total_time = 28561.2853948822
+current total_dis = 33488.3588541725
+remove/insert cnt = 22
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 84:
+current ec = 16322533.7635743264
+current total_time = 28559.5067096959
+current total_dis = 33488.3588541725
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 85:
+current ec = 16322533.7635743264
+current total_time = 28559.5067096959
+current total_dis = 33488.3588541725
+remove/insert cnt = 10
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 86:
+current ec = 16322533.7635743264
+current total_time = 28559.5067096959
+current total_dis = 33488.3588541725
+remove/insert cnt = 38
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 87:
+current ec = 16322533.7635743264
+current total_time = 28559.5067096959
+current total_dis = 33488.3588541725
+remove/insert cnt = 12
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 88:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 89:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 9
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 90:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 39
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 91:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 49
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 92:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 64
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 93:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 97
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 94:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 131
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 95:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 118
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 96:
+current ec = 16314157.2691532280
+current total_time = 28548.6901772498
+current total_dis = 33470.1105112229
+remove/insert cnt = 11
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 16787 nonzeros
+Model fingerprint: 0xbd798061
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.645111e+07
+Presolve removed 492 rows and 7837 columns
+Presolve time: 0.01s
+Presolved: 108 rows, 163 columns, 358 nonzeros
+Found heuristic solution: objective 1.654230e+07
+Variable types: 0 continuous, 163 integer (163 binary)
+
+Root relaxation: objective 1.630739e+07, 50 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.630739e+07 1.6307e+07  0.00%     -    0s
+
+Explored 1 nodes (50 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 1.63074e+07 1.64511e+07 1.65423e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.630738658238e+07, best bound 1.630738658238e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 97:
+current ec = 16307386.5823814534
+current total_time = 28517.8797521360
+current total_dis = 33455.6870810926
+remove/insert cnt = 175
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 98:
+current ec = 16307386.5823814534
+current total_time = 28517.8797521360
+current total_dis = 33455.6870810926
+remove/insert cnt = 76
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 99:
+current ec = 16307386.5823814534
+current total_time = 28517.8797521360
+current total_dis = 33455.6870810926
+remove/insert cnt = 12
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 100:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 101:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 25
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 102:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 7
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 103:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 27
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 104:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 11
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 105:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 7
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 106:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 148
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 107:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 124
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 108:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 134
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 109:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 8
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 110:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 162
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 111:
+current ec = 16307253.0581814069
+current total_time = 28516.9225687511
+current total_dis = 33455.4231591506
+remove/insert cnt = 188
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 112:
+current ec = 16270603.0102045815
+current total_time = 28756.5600158301
+current total_dis = 33395.1880126274
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 113:
+current ec = 16137879.0924341772
+current total_time = 28373.9325476124
+current total_dis = 33108.1035673486
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 16788 nonzeros
+Model fingerprint: 0x1258b5df
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.662947e+07
+Presolve removed 255 rows and 7345 columns
+Presolve time: 0.03s
+Presolved: 345 rows, 655 columns, 1408 nonzeros
+Found heuristic solution: objective 1.671868e+07
+Variable types: 0 continuous, 655 integer (655 binary)
+
+Root relaxation: objective 1.605303e+07, 404 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.6053e+07    0   41 1.6629e+07 1.6053e+07  3.47%     -    0s
+H    0     0                    1.611959e+07 1.6053e+07  0.41%     -    0s
+H    0     0                    1.611958e+07 1.6053e+07  0.41%     -    0s
+H    0     0                    1.608210e+07 1.6053e+07  0.18%     -    0s
+     0     0 1.6058e+07    0   18 1.6082e+07 1.6058e+07  0.15%     -    0s
+H    0     0                    1.608177e+07 1.6058e+07  0.15%     -    0s
+     0     0 1.6060e+07    0   34 1.6082e+07 1.6060e+07  0.13%     -    0s
+H    0     0                    1.606332e+07 1.6060e+07  0.02%     -    0s
+H    0     0                    1.606114e+07 1.6060e+07  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 5
+  Clique: 1
+  Zero half: 9
+
+Explored 1 nodes (455 simplex iterations) in 0.06 seconds (0.04 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 8: 1.60611e+07 1.60633e+07 1.60818e+07 ... 1.67187e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.606113679270e+07, best bound 1.606037444140e+07, gap 0.0047%
+SPP completed
+
+===========================================
+running on iteration 114:
+current ec = 16061136.7926983275
+current total_time = 28223.7909736332
+current total_dis = 32945.3959930951
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 115:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 116:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 30
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 117:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 49
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 118:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 46
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 119:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 69
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 120:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 118
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 121:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 78
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 122:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 170
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 123:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 57
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 124:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 190
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 125:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 182
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 126:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 155
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 127:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 164
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 128:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 129:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 72
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 130:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 131:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 137
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 132:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 133:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 134:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 135:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 94
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 136:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 137:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 138:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 186
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 139:
+current ec = 16005813.5380797423
+current total_time = 28045.4892363081
+current total_dis = 32826.8818084198
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 17213 nonzeros
+Model fingerprint: 0x1dcf400c
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.700870e+07
+Presolve removed 70 rows and 6612 columns
+Presolve time: 0.03s
+Presolved: 530 rows, 1388 columns, 3057 nonzeros
+Variable types: 0 continuous, 1388 integer (1388 binary)
+
+Root relaxation: objective 1.589916e+07, 898 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.589916e+07 1.5899e+07  0.00%     -    0s
+
+Explored 1 nodes (898 simplex iterations) in 0.05 seconds (0.04 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 1.58992e+07 1.70087e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.589916012734e+07, best bound 1.589916012734e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 140:
+current ec = 15899160.1273351125
+current total_time = 27941.2420067862
+current total_dis = 32609.9271805627
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 141:
+current ec = 15899160.1273351125
+current total_time = 27941.2420067862
+current total_dis = 32609.9271805627
+remove/insert cnt = 151
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 142:
+current ec = 15899160.1273351125
+current total_time = 27941.2420067862
+current total_dis = 32609.9271805627
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 143:
+current ec = 15899160.1273351125
+current total_time = 27941.2420067862
+current total_dis = 32609.9271805627
+remove/insert cnt = 184
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 144:
+current ec = 15899160.1273351125
+current total_time = 27941.2420067862
+current total_dis = 32609.9271805627
+remove/insert cnt = 165
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 145:
+current ec = 15899160.1273351125
+current total_time = 27941.2420067862
+current total_dis = 32609.9271805627
+remove/insert cnt = 97
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 146:
+current ec = 15856913.4093038458
+current total_time = 27837.4709206756
+current total_dis = 32518.0494789674
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 147:
+current ec = 15849540.5730123427
+current total_time = 27819.5743838423
+current total_dis = 32502.5187870071
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 148:
+current ec = 15849540.5730123427
+current total_time = 27819.5743838423
+current total_dis = 32502.5187870071
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 149:
+current ec = 15849540.5730123427
+current total_time = 27819.5743838423
+current total_dis = 32502.5187870071
+remove/insert cnt = 40
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 150:
+current ec = 15849540.5730123427
+current total_time = 27819.5743838423
+current total_dis = 32502.5187870071
+remove/insert cnt = 68
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 151:
+current ec = 15849540.5730123427
+current total_time = 27819.5743838423
+current total_dis = 32502.5187870071
+remove/insert cnt = 79
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 152:
+current ec = 15849540.5730123427
+current total_time = 27819.5743838423
+current total_dis = 32502.5187870071
+remove/insert cnt = 53
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 153:
+current ec = 15849540.5730123427
+current total_time = 27819.5743838423
+current total_dis = 32502.5187870071
+remove/insert cnt = 15
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 154:
+current ec = 15846507.5172008462
+current total_time = 27814.4141479489
+current total_dis = 32495.9417757074
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 155:
+current ec = 15846165.7435695920
+current total_time = 27817.5022872879
+current total_dis = 32495.0745970544
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 156:
+current ec = 15846165.7435695920
+current total_time = 27817.5022872879
+current total_dis = 32495.0745970544
+remove/insert cnt = 11
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 157:
+current ec = 15846165.7435695902
+current total_time = 27817.5022872879
+current total_dis = 32495.0745970544
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 158:
+current ec = 15846165.7435695902
+current total_time = 27817.5022872879
+current total_dis = 32495.0745970544
+remove/insert cnt = 12
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 159:
+current ec = 15846165.7435695902
+current total_time = 27817.5022872879
+current total_dis = 32495.0745970544
+remove/insert cnt = 19
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 720
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  720
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 17451 nonzeros
+Model fingerprint: 0x38bdab91
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.676800e+07
+Presolve removed 278 rows and 7302 columns
+Presolve time: 0.02s
+Presolved: 322 rows, 698 columns, 1470 nonzeros
+Found heuristic solution: objective 1.651597e+07
+Variable types: 0 continuous, 698 integer (698 binary)
+Found heuristic solution: objective 1.642696e+07
+
+Root relaxation: objective 1.583314e+07, 461 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.5833e+07    0   31 1.6427e+07 1.5833e+07  3.61%     -    0s
+H    0     0                    1.591651e+07 1.5833e+07  0.52%     -    0s
+H    0     0                    1.585602e+07 1.5833e+07  0.14%     -    0s
+H    0     0                    1.585510e+07 1.5833e+07  0.14%     -    0s
+H    0     0                    1.583536e+07 1.5833e+07  0.01%     -    0s
+H    0     0                    1.583468e+07 1.5833e+07  0.01%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  Zero half: 1
+
+Explored 1 nodes (461 simplex iterations) in 0.04 seconds (0.03 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 8: 1.58347e+07 1.58354e+07 1.58551e+07 ... 1.6768e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.583467793646e+07, best bound 1.583355338304e+07, gap 0.0071%
+SPP completed
+
+===========================================
+running on iteration 160:
+current ec = 15834677.9364630878
+current total_time = 27785.0122902133
+current total_dis = 32469.4395344406
+remove/insert cnt = 26
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 161:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 162:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 15
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 163:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 26
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 164:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 39
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 165:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 55
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 166:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 82
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 167:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 21
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 168:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 113
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 169:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 37
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 170:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 78
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 171:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 157
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 172:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 82
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 173:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 49
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 174:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 36
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 175:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 176:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 177:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 21
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 178:
+current ec = 15824172.0249801446
+current total_time = 27742.3392907825
+current total_dis = 32447.0356904199
+remove/insert cnt = 57
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 179:
+current ec = 15823673.5334372707
+current total_time = 27737.2806760683
+current total_dis = 32445.7577708848
+remove/insert cnt = 6
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+running SPP
+Set parameter LicenseID to value 2584005
+Set parameter LogFile to value "zzr.log"
+Set parameter Threads to value 8
+Set parameter TimeLimit to value 561
+Gurobi Optimizer version 12.0.0 build v12.0.0rc1 (mac64[arm] - Darwin 21.5.0 21F79)
+
+CPU model: Apple M1
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Non-default parameters:
+TimeLimit  561
+Threads  8
+
+Optimize a model with 600 rows, 8000 columns and 17454 nonzeros
+Model fingerprint: 0xd3b79d8e
+Variable types: 0 continuous, 8000 integer (8000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+04, 1e+09]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 1.015977e+09
+Presolve removed 321 rows and 7343 columns
+Presolve time: 0.02s
+Presolved: 279 rows, 657 columns, 1488 nonzeros
+Found heuristic solution: objective 1.626399e+07
+Variable types: 0 continuous, 657 integer (657 binary)
+
+Root relaxation: objective 1.581703e+07, 314 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    1.581703e+07 1.5817e+07  0.00%     -    0s
+
+Explored 1 nodes (314 simplex iterations) in 0.06 seconds (0.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 1.5817e+07 1.6264e+07 1.01598e+09 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.581703289913e+07, best bound 1.581703289913e+07, gap 0.0000%
+SPP completed
+
+===========================================
+running on iteration 180:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 20
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 181:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 44
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 182:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 32
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 183:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 16
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 184:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 112
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 185:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 28
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 186:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 90
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 187:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 29
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 188:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 197
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 189:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 90
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 190:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 95
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 191:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 13
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 192:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 141
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 193:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 194:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 162
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 195:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 147
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+running local search
+local search completed
+
+===========================================
+running on iteration 196:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 197:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 198:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 199:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 41
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 200:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 109
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+running on iteration 201:
+current ec = 15817032.8991259187
+current total_time = 27725.6968691244
+current total_dis = 32431.6124720894
+remove/insert cnt = 200
+running on LNS_remove
+remove completed
+running on LNS_insert
+insert completed
+
+===========================================
+Route1: 297 303 520 
+Route2: 93 48 533 
+Route3: 553 252 
+Route4: 417 173 
+Route5: 125 348 2 
+Route6: 543 527 475 
+Route7: 76 347 
+Route8: 580 452 
+Route9: 100 178 
+Route10: 147 450 
+Route11: 556 595 
+Route12: 318 525 
+Route13: 523 506 
+Route14: 304 133 
+Route15: 248 101 
+Route16: 591 230 
+Route17: 232 285 
+Route18: 539 157 
+Route19: 42 275 
+Route20: 486 26 
+Route21: 509 7 
+Route22: 386 422 
+Route23: 160 149 
+Route24: 13 412 
+Route25: 349 154 494 
+Route26: 573 277 
+Route27: 249 289 
+Route28: 74 333 
+Route29: 222 334 
+Route30: 40 393 
+Route31: 211 92 
+Route32: 38 395 
+Route33: 269 104 
+Route34: 259 10 
+Route35: 295 245 71 
+Route36: 78 563 
+Route37: 317 423 15 
+Route38: 1 478 
+Route39: 562 235 
+Route40: 431 329 
+Route41: 54 162 
+Route42: 306 567 
+Route43: 504 3 
+Route44: 322 128 
+Route45: 387 287 
+Route46: 476 456 
+Route47: 357 436 135 
+Route48: 9 75 
+Route49: 572 477 529 
+Route50: 213 546 
+Route51: 109 364 531 
+Route52: 373 118 
+Route53: 210 512 246 
+Route54: 170 58 
+Route55: 480 590 
+Route56: 361 255 
+Route57: 555 72 
+Route58: 69 251 12 
+Route59: 218 530 280 
+Route60: 491 550 
+Route61: 515 221 
+Route62: 462 429 
+Route63: 81 123 
+Route64: 247 521 
+Route65: 8 497 52 
+Route66: 207 155 
+Route67: 243 169 
+Route68: 470 164 
+Route69: 127 368 196 
+Route70: 307 263 
+Route71: 229 138 453 
+Route72: 434 198 
+Route73: 343 377 
+Route74: 593 474 
+Route75: 335 156 
+Route76: 511 328 
+Route77: 488 172 
+Route78: 396 131 
+Route79: 587 49 
+Route80: 427 319 
+Route81: 20 358 
+Route82: 205 311 
+Route83: 73 379 
+Route84: 146 313 
+Route85: 41 548 
+Route86: 39 167 
+Route87: 271 502 33 
+Route88: 168 108 
+Route89: 584 510 
+Route90: 62 
+Route91: 250 534 
+Route92: 284 316 
+Route93: 241 80 
+Route94: 238 190 
+Route95: 183 493 
+Route96: 265 420 
+Route97: 585 260 
+Route98: 77 428 
+Route99: 240 22 
+Route100: 455 336 
+Route101: 201 14 442 
+Route102: 224 165 369 
+Route103: 489 134 
+Route104: 226 87 
+Route105: 490 589 
+Route106: 439 184 200 
+Route107: 276 579 397 
+Route108: 513 298 
+Route109: 588 448 
+Route110: 463 353 
+Route111: 505 418 558 
+Route112: 340 85 542 
+Route113: 126 352 
+Route114: 528 192 
+Route115: 535 374 375 
+Route116: 291 508 
+Route117: 524 209 
+Route118: 199 124 
+Route119: 50 400 
+Route120: 34 273 
+Route121: 327 315 
+Route122: 99 581 378 
+Route123: 481 67 
+Route124: 47 405 266 
+Route125: 24 292 
+Route126: 305 19 
+Route127: 468 408 
+Route128: 342 4 
+Route129: 472 215 231 
+Route130: 430 185 469 
+Route131: 98 91 120 
+Route132: 212 97 
+Route133: 274 498 
+Route134: 370 107 68 
+Route135: 144 454 
+Route136: 596 195 
+Route137: 122 129 
+Route138: 203 356 
+Route139: 557 594 332 
+Route140: 501 416 
+Route141: 566 193 
+Route142: 403 119 44 
+Route143: 286 194 
+Route144: 264 176 301 
+Route145: 496 384 
+Route146: 507 582 
+Route147: 407 35 
+Route148: 467 25 
+Route149: 341 59 
+Route150: 446 500 447 29 
+Route151: 451 121 
+Route152: 32 554 
+Route153: 225 371 
+Route154: 411 449 
+Route155: 219 485 84 354 
+Route156: 323 174 206 
+Route157: 186 197 
+Route158: 577 360 
+Route159: 495 339 
+Route160: 382 522 
+Route161: 139 31 
+Route162: 570 136 
+Route163: 61 465 
+Route164: 166 293 
+Route165: 223 180 
+Route166: 220 388 
+Route167: 70 443 
+Route168: 389 302 
+Route169: 444 189 
+Route170: 324 457 
+Route171: 96 112 
+Route172: 526 30 
+Route173: 574 406 
+Route174: 175 312 401 
+Route175: 117 177 
+Route176: 482 363 
+Route177: 426 110 
+Route178: 331 5 
+Route179: 270 464 
+Route180: 551 63 432 598 
+Route181: 425 415 421 
+Route182: 236 314 376 
+Route183: 559 547 
+Route184: 564 516 
+Route185: 150 561 
+Route186: 64 517 202 
+Route187: 89 244 
+Route188: 237 385 
+Route189: 17 544 
+Route190: 541 532 
+Route191: 586 380 
+Route192: 239 36 
+Route193: 45 228 
+Route194: 365 471 
+Route195: 473 545 
+Route196: 484 404 
+Route197: 583 216 
+Route198: 83 381 576 
+Route199: 51 519 310 
+Route200: 143 549 
+Route201: 438 46 
+Route202: 437 114 
+Route203: 409 414 
+Route204: 181 23 
+Route205: 410 600 
+Route206: 179 82 
+Route207: 592 6 
+Route208: 88 483 
+Route209: 258 27 
+Route210: 171 518 
+Route211: 575 440 90 
+Route212: 330 153 433 
+Route213: 346 28 
+Route214: 337 460 
+Route215: 338 56 
+Route216: 142 86 
+Route217: 158 102 
+Route218: 53 65 
+Route219: 204 279 
+Route220: 345 145 
+Route221: 296 95 105 344 
+Route222: 461 66 
+Route223: 163 597 
+Route224: 191 141 
+Route225: 424 267 
+Route226: 300 288 
+Route227: 399 578 
+Route228: 290 18 116 
+Route229: 359 441 
+Route230: 419 208 
+Route231: 321 435 
+Route232: 308 60 
+Route233: 392 571 
+Route234: 16 272 
+Route235: 94 57 
+Route236: 148 234 
+Route237: 458 487 
+Route238: 137 113 
+Route239: 536 55 
+Route240: 538 188 
+Route241: 568 537 
+Route242: 459 394 
+Route243: 253 390 
+Route244: 43 182 
+Route245: 503 540 398 281 
+Route246: 560 350 
+Route247: 466 106 
+Route248: 320 159 
+Route249: 499 355 
+Route250: 492 326 
+Route251: 187 362 
+Route252: 282 372 
+Route253: 413 261 309 
+Route254: 552 391 
+Route255: 569 11 
+Route256: 479 130 
+Route257: 233 
+Route258: 599 294 
+Route259: 37 103 
+Route260: 383 152 
+Route261: 151 402 
+Route262: 268 278 
+Route263: 283 140 
+Route264: 366 111 
+Route265: 565 79 299 
+Route266: 214 21 
+Route267: 351 262 
+Route268: 254 
+Route269: 161 445 
+Route270: 256 227 
+Route271: 514 
+Route272: 242 115 
+Route273: 257 325 
+Route274: 367 132 
+Route275: 217 
+energy consumption = 15817032.8991259187
+total time = 27725.6968691244
+total distance = 32431.6124720894
+running time = 7220

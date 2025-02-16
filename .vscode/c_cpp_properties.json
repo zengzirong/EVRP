@@ -3,14 +3,17 @@
         {
             "name": "Mac",
             "includePath": [
-                "${default}"
+                "${default}",
+                "/Library/gurobi1200/macos_universal2/include/**",
+                "/Library/gurobi1200/macos_universal2/lib/**"
             ],
             "defines": [],
+            "compilerPath": "/usr/bin/clang++",
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
-            "cStandard": "c17",
-            "cppStandard": "c++17",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
             "intelliSenseMode": "macos-clang-arm64"
         }
     ],
